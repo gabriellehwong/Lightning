@@ -13,7 +13,7 @@ void draw()
   stroke(250, 250, 3);
   while (endX <= 300 && endY <= 300) {
     endX = startX + (int)(Math.random()*10);
-    endY = startY + (int)(Math.random()*20) - 9;
+    endY = startY + (int)(Math.random()*19) - 9;
     line(startX, startY, endX, endY);
     startX = endX;
     startY = endY;
